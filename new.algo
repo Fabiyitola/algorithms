@@ -1,0 +1,26 @@
+ALGORITHM Sentence
+VAR
+    sentence_length: INTEGER=0
+    word_count: INTEGER=0
+    vowel_count: INTEGER=0
+    i= INTEGER=0
+BEGIN
+    Read(sentence)
+    FOR i FROM 0 TO "." STEP step DO;
+        IF (i=sentence_length) THEN
+        sentence_length= sentence_length+1
+        END_IF
+    END_FOR
+    
+    FOR i FROM 0 TO "." STEP step DO;
+        IF (i=word_count) THEN
+        word_count= word_count+1
+        END_IF
+    END_FOR
+
+    FOR i FROM 0 TO "." STEP step DO;
+        IF (i=vowel_count) THEN
+        vowel_count= vowel_count+1
+        END_IF
+    END_FOR
+END
